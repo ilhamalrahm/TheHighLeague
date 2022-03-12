@@ -48,22 +48,58 @@ const UserSignUp = () => {
        
          
 
-          <div className="outer  p-2" style={{backgroundColor:"#16324F",width:"40%",maxHeight:"40%",borderRadius:"20px", borderStyle:"solid",borderColor:"white",borderWidth:"medium"}}>
-             <div className="inner position-relative d-flex d-flex-column justify-content-center pt-3 pb-3 align-items-center d-flex" style={{backgroundColor:"white",width:"100%",height:"100%",borderRadius:"20px"}}>
+          <div className="outer d-flex d-flex-column justify-content-center align-items-center position-relative p-2" style={{backgroundColor:"#16324F",width:"30%",maxHeight:"40%",borderRadius:"20px", borderStyle:"solid",borderColor:"white",borderWidth:"medium"}}>
+             <div className="inner position-relative d-flex d-flex-column justify-content-center pt-3 pb-3 align-items-center d-flex" style={{backgroundColor:"white",width:"100%",height:"90%",borderRadius:"20px", overflowY:"scroll"}}>
             
-             <div className="id position-relative px-3" style={{width:"60%"}}>
-             <p className="id" style={{fontWeight:"bolder", fontSize:"2.0rem"}}>Name:</p>
+             <div className="id position-relative py-5 px-3" style={{width:"60%"}}>
+             <p className="id" style={{fontWeight:"bolder", fontSize:"1.0rem"}}>First Name:</p>
                 <input className="form-control px-2 py-3 " id="name" style={{width:"100%"}} type="text" placeholder="Unique ID" aria-label="default input example"></input>
-                <p className="id" style={{fontWeight:"bolder", fontSize:"2.0rem"}}>Email Id:</p>
+                <p className="id" style={{fontWeight:"bolder", fontSize:"1.0rem"}}>Last Name:</p>
                 <input className="form-control px-2 py-3 " id="email" style={{width:"100%"}} type="text" placeholder="Unique ID" aria-label="default input example"></input>
-                <p className="id" style={{fontWeight:"bolder", fontSize:"2.0rem"}}>Password:</p>
+                <p className="id" style={{fontWeight:"bolder", fontSize:"1.0rem"}}>Phone:</p>
                 <input className="form-control px-2 py-3 " id="password" style={{width:"100%"}} type="text" placeholder="Unique ID" aria-label="default input example"></input>
-
+                <p className="id" style={{fontWeight:"bolder", fontSize:"1.0rem"}}>Email:</p>
+                <input className="form-control px-2 py-3 " id="password" style={{width:"100%"}} type="text" placeholder="Unique ID" aria-label="default input example"></input>
+                <p className="id" style={{fontWeight:"bolder", fontSize:"1.0rem"}}>Password:</p>
+                <input className="form-control px-2 py-3 " id="password" style={{width:"100%"}} type="text" placeholder="Unique ID" aria-label="default input example"></input>
                 <div className="btn btn-md mt-3 text-white" onClick={Submit} style={{backgroundColor:"#2A628F",borderRadius:"30px",fontSize:"1.5rem"}}>Sign In</div>
 
             </div>
+
+            
         </div>
       </div>
+
+      <div className="outer d-flex d-flex-column justify-content-center align-items-center position-relative p-2" style={{backgroundColor:"#16324F",width:"30%",maxHeight:"40%",borderRadius:"20px", borderStyle:"solid",borderColor:"white",borderWidth:"medium"}}>
+             <div className="inner position-relative d-flex d-flex-column justify-content-center pt-3 pb-3 align-items-center d-flex" style={{backgroundColor:"white",width:"100%",height:"90%",borderRadius:"20px", overflowY:"scroll"}}>
+            
+             <div className="id position-relative py-5 px-3" style={{width:"60%"}}>
+             <p className="id" style={{fontWeight:"bolder", fontSize:"1.0rem"}}>First Name:</p>
+                <input className="form-control px-2 py-3 " id="name" style={{width:"100%"}} type="text" placeholder="Unique ID" aria-label="default input example"></input>
+                <p className="id" style={{fontWeight:"bolder", fontSize:"1.0rem"}}>Last Name:</p>
+                <input className="form-control px-2 py-3 " id="email" style={{width:"100%"}} type="text" placeholder="Unique ID" aria-label="default input example"></input>
+                <p className="id" style={{fontWeight:"bolder", fontSize:"1.0rem"}}>Phone:</p>
+                <input className="form-control px-2 py-3 " id="password" style={{width:"100%"}} type="text" placeholder="Unique ID" aria-label="default input example"></input>
+                <p className="id" style={{fontWeight:"bolder", fontSize:"1.0rem"}}>Email:</p>
+                <input className="form-control px-2 py-3 " id="password" style={{width:"100%"}} type="text" placeholder="Unique ID" aria-label="default input example"></input>
+                <p className="id" style={{fontWeight:"bolder", fontSize:"1.0rem"}}>Password:</p>
+                <input className="form-control px-2 py-3 " id="password" style={{width:"100%"}} type="text" placeholder="Unique ID" aria-label="default input example"></input>
+                <div className="btn btn-md mt-3 text-white" onClick={Submit} style={{backgroundColor:"#2A628F",borderRadius:"30px",fontSize:"1.5rem"}}>Sign In</div>
+
+            </div>
+
+            
+        </div>
+      </div>
+
+      
+
+      
+
+
+
+      
+
 
        
          
